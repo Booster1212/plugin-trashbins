@@ -2,7 +2,7 @@ import * as alt from 'alt-client';
 import * as AthenaClient from '@AthenaClient/api';
 
 import { onTicksStart } from '@AthenaClient/events/onTicksStart';
-import { TrashbinEvents } from '@AthenaPlugins/trashbin-simulator/shared/enums';
+import { TrashbinEvents } from '@AthenaPlugins/plugin-trashbins/shared/enums';
 
 function init() {
     const page = new AthenaClient.webview.Page({

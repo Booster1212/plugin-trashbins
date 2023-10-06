@@ -1,6 +1,6 @@
 import * as alt from 'alt-server';
 import * as Athena from '@AthenaServer/api';
-import { TrashbinEvents } from '@AthenaPlugins/trashbin-simulator/shared/enums';
+import { TrashbinEvents } from '@AthenaPlugins/plugin-trashbins/shared/enums';
 import { trashItems } from './defaults/trashItems';
 
 const lockedTrashbins = [];
